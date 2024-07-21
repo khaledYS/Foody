@@ -19,6 +19,14 @@ module.exports = {
       },
     },
     extend: {
+      fontSize: {
+        "h1": "64px",
+        "h2": "52px",
+        "h3": "36px",
+        "h4": "24px",
+        "body": "24px",
+        "button": "18px"
+      },
       fontFamily: {
         sans: ["var(--font-sans)", ...fontFamily.sans],
       },
