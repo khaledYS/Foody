@@ -17,7 +17,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body className={cn(
-          "min-h-screen bg-background antialiased",
+          "min-h-screen bg-background overflow-x-hidden antialiased",
           poppinsFont.className
         )}>
         <Navbar />
