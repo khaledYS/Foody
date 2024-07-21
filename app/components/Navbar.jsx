@@ -8,7 +8,7 @@ export default function Navbar (){
 
             <div className={cn("logo text-4xl font")}>Foody</div>
 
-            <div className="navbar-links flex gap-4 text-xl">
+            <div className="navbar-links flex gap-4 text-lg">
                 <Link className="link-underline" href="/home">Home</Link>
                 <Link className="link-underline" href="/aboutus">About us</Link>
                 <Link className="link-underline" href="/contact">Contact</Link>
@@ -16,9 +16,9 @@ export default function Navbar (){
             </div>
 
             {/* the auths section well be replaced with user logo and dashboard link in case they are logged in */}
-            <div className="auths flex justify-between items-center gap-4">
-                <button className="px-6 py-2 border border-[#A39F9F]" >Login</button>
-                <button className="px-6 py-2 border bg-[#A39F9F]">Sign up</button>
+            <div className="auths flex justify-between items-center gap-4 font-semibold">
+                <button className="px-6 py-2 border border-prime rounded-md" >Login</button>
+                <button className="px-6 py-2 border bg-prime rounded-md">Sign up</button>
             </div>
 
         </navbar>

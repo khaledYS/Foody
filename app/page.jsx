@@ -6,9 +6,10 @@ const page = () => {
     <div className="">
 
       <div className="my-10 flex flex-col justify-center items-center max-w-[40vw] mx-auto text-center text-[18px] gap-2">
-        <h1 className="text-[48px] font-semibold">Create Your Menu Faster!</h1>
-        <h3 className="">Foody helps restaurants and cafes streamline their operations with a suite of digital tools. Our platform allows you to manage various aspects of your business seamlessly, ensuring efficiency and enhancing customer satisfaction.</h3>
-        <button className="my-4 font-semibold bg-[#A39F9F] px-4 py-2" >Get started</button>
+        <h1 className="text-[48px] font-semibold ">Create Your <span className="text-prime">Menu</span> Faster!</h1>
+        <h3 className="">
+Foody helps restaurants and cafes streamline operations with a suite of digital tools, enabling efficient management and enhanced customer satisfaction.</h3>
+        <button className="my-4 font-semibold bg-prime px-8 py-2 rounded-lg" >Get Started</button>
       </div>
 
       <div className="flex w-full px-16 ">
@@ -16,8 +17,8 @@ const page = () => {
           <div className="w-full">
             <div className="w-full mr-2 max-w-xl">
               <h1 className="text-[36px] my-4">What is Foody?</h1>
-              <p className="text-[18px] my-10 ml-3">
-              Foody is an all-in-one platform designed to simplify restaurant and cafe management. Our intuitive tools help you manage everything from digital menus and online orders to reservations and staff scheduling. Foody’s QR code integration allows customers to easily access menus and place orders directly from their smartphones. With our customer feedback system, you can gather valuable insights to improve your service. Our employee scheduling and table management features ensure smooth operations and optimal service. Join the growing number of establishments that trust Foody to enhance their efficiency and customer experience.
+              <p className="text-[18px] my-10 ml-6">
+                Foody simplifies restaurant and cafe management with tools for digital menus, online orders, reservations, and staff scheduling. Customers can access menus and order via QR codes. Our feedback system offers insights to improve service, while employee scheduling and table management ensure smooth operations. Enhance efficiency and customer experience with Foody.
               </p>
             </div>
           </div>
