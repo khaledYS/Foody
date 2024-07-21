@@ -1,5 +1,5 @@
 import React from "react";
-import showcaseImg from "./assets/showcase.png"
+import showcaseImg from "@/public/assets/showcase.png"
 
 const page = () => {
   return(
