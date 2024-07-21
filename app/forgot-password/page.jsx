@@ -1,6 +1,6 @@
 
-export default function ForgotPassword(){
+export default function page(){
     return (
-        <></>
+        <>dddddd</>
     )
 }
