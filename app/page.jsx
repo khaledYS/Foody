@@ -18,7 +18,7 @@ const page = () => {
         </div>
       </div>
 
-      <div className="flex w-full px-16 max-md:px-8 ">
+      <div className="flex w-full px-16 max-md:px-8 max-md:my-12">
         <div className="w-full flex py-8 max-md:flex-col">
           <div className="w-full">
             <div className="w-full mr-2 max-w-xl">
@@ -33,10 +33,10 @@ const page = () => {
         </div>
       </div>
 
-      <dir className="h-screen w-screen grid place-items-center text-secnd p-0">
-        <div className="w-full flex flex-col text-center justify-center items-center gap-12">
-          <div className="text-h2">What does it provide? </div>
-          <div className="flex gap-8 flex-wrap justify-center px-4 ">
+      <dir className="h-screen w-screen grid place-items-center text-secnd p-0 max-md:my-12">
+        <div className="w-full flex flex-col text-center justify-center items-center gap-12 max-md:gap-6">
+          <div className="text-h2 max-md:text-h3">What does it provide? </div>
+          <div className="flex gap-8 max-md:gap-4 flex-wrap justify-center px-4">
             <Feature 
               title="Menu Maker" 
               description="Create and manage digital menus with QR code integration for easy customer access." 
@@ -44,7 +44,7 @@ const page = () => {
             <Feature 
               title="Digital Ordering" 
               description="Provide a seamless digital menu and ordering experience for your customers." 
-              logo={<TfiTablet className="text-8xl"/>} />
+              logo={<TfiTablet className="text-8xl max-md:text-5xl"/>} />
             <Feature 
               title="Reservations" 
               description="Streamline your restaurant's reservation system with booking and management tools." 
