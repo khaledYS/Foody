@@ -5,7 +5,7 @@ import Link from "next/link";
 import React from "react";
 const page = () => {
   return (
-    <div className="flex flex-col gap-8 p-6 border-2 h-fit w-full sm:w-[400px]">
+    <div className="flex flex-col gap-6 p-6 border-2 h-fit w-full sm:w-[400px]">
       <AuthTitle text={"Login to Foody"} />
       <GoogleButton text={"Login with Google"} />
       <Line text={"Or Login with Email"} />
@@ -44,8 +44,8 @@ const page = () => {
           value="login"
         />
       </form>
-      <div className="flex gap-1 justify-center">
-        Don’t have an account yet?
+      <div>
+        Don’t have an account yet? {""}
         <Link href={"/auth/sign-up"} className="text-center text-blue-500">
           Sign up
         </Link>
