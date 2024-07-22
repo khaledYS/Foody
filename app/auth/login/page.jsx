@@ -35,18 +35,21 @@ const page = () => {
             placeholder="**************"
           />
         </div>
+        <Link href={"/auth/forgot-password"} className="text-blue-500">
+          Forgot your password?
+        </Link>
         <input
           className="bg-[#13B9A8] text-white rounded-sm h-11 outline-none"
           type="submit"
           value="login"
         />
       </form>
-      <Link
-        href={"/auth/forgot-password"}
-        className="text-center text-blue-500"
-      >
-        Forgot your password?
-      </Link>
+      <div className="flex gap-1 justify-center">
+        Don’t have an account yet?
+        <Link href={"/auth/sign-up"} className="text-center text-blue-500">
+          Sign up
+        </Link>
+      </div>
     </div>
   );
 };
