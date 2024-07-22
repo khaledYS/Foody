@@ -2,7 +2,7 @@ import Link from "next/link";
 export default function LoginLayout({ children }) {
   return (
     <div className="grid grid-rows-[auto_1fr] h-dvh">
-      <div className="w-screen flex justify-between items-center p-4">
+      <div className="w-full flex justify-between items-center p-4">
         <div className="logo">foody logo</div>
         <Link
           href={"/"}
