@@ -8,7 +8,6 @@ import { FaUserClock } from "react-icons/fa";
 const page = () => {
   return(
     <div className="">
-
       <div className="w-full h-[85vh] grid place-items-center">
         <div className="my-10 flex flex-col justify-center items-center max-w-[40vw] max-md:max-w-full max-md:px-6 mx-auto text-center text-[18px] gap-2">
           <h1 className="text-[48px] font-semibold ">Create Your <span className="text-prime">Menu</span> Faster!</h1>
@@ -29,7 +28,7 @@ const page = () => {
             </div>
           </div>
 
-          <div className="w-full flex items-center justify-center"><img src={showcaseImg.src} alt="showcase image of the product" /></div>
+
         </div>
       </div>
 
