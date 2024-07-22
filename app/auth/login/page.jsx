@@ -11,25 +11,22 @@ const page = () => {
       <Line text={"Or Login with Email"} />
       <form className="flex flex-col gap-4">
         <div className="group grid">
-          <label className="group-focus-within:text-[#13B9A8]" htmlFor="email">
+          <label className="group-focus-within:text-primary" htmlFor="email">
             Email Address
           </label>
           <input
-            className="border-2 rounded-sm h-11 outline-none focus:border-[#13B9A8] px-2"
+            className="border-2 rounded-sm h-11 outline-none focus:border-primary px-2"
             type="email"
             name="email"
             placeholder="your@email.com"
           />
         </div>
         <div className="group grid">
-          <label
-            className="group-focus-within:text-[#13B9A8]"
-            htmlFor="password"
-          >
+          <label className="group-focus-within:text-primary" htmlFor="password">
             password
           </label>
           <input
-            className="placeholder:absolute placeholder:top-3 border-2 rounded-sm h-11 outline-none focus:border-[#13B9A8] px-2"
+            className="placeholder:absolute placeholder:top-3 border-2 rounded-sm h-11 outline-none focus:border-primary px-2"
             type="password"
             name="password"
             placeholder="**************"
@@ -39,7 +36,7 @@ const page = () => {
           Forgot your password?
         </Link>
         <input
-          className="bg-[#13B9A8] text-white rounded-sm h-11 outline-none"
+          className="bg-primary text-white rounded-sm h-11 outline-none"
           type="submit"
           value="login"
         />

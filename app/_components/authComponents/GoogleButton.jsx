@@ -3,7 +3,7 @@ import React from "react";
 import googleIcon from "@/public/assets/google-icon.svg";
 const GoogleButton = ({ text }) => {
   return (
-    <div className="w-full py-3 bg-[#083344] text-white flex justify-center items-center gap-3 rounded-sm">
+    <div className="w-full py-3 bg-secondary text-white flex justify-center items-center gap-3 rounded-sm">
       <Image
         src={googleIcon}
         alt="googleIcon"

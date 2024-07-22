@@ -4,10 +4,7 @@ export default function LoginLayout({ children }) {
     <div className="grid grid-rows-[auto_1fr] h-dvh">
       <div className="w-full flex justify-between items-center p-4">
         <div className="logo">foody logo</div>
-        <Link
-          href={"/"}
-          className="bg-[#13B9A8] text-white py-2 px-4 rounded-sm"
-        >
+        <Link href={"/"} className="bg-primary text-white py-2 px-4 rounded-sm">
           go back
         </Link>
       </div>

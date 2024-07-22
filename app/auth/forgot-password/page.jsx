@@ -11,18 +11,18 @@ const page = () => {
       </p>
       <form className="flex flex-col gap-4">
         <div className="group grid">
-          <label className="group-focus-within:text-[#13B9A8]" htmlFor="email">
+          <label className="group-focus-within:text-primary" htmlFor="email">
             Email Address
           </label>
           <input
-            className="border-2 rounded-sm h-11 outline-none focus:border-[#13B9A8] px-2"
+            className="border-2 rounded-sm h-11 outline-none focus:border-primary px-2"
             type="email"
             name="email"
             placeholder="your@email.com"
           />
         </div>
         <input
-          className="bg-[#13B9A8] text-white rounded-sm h-11 outline-none"
+          className="bg-primary text-white rounded-sm h-11 outline-none"
           type="submit"
           value="reset password"
         />
