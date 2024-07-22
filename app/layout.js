@@ -19,7 +19,6 @@ export default function RootLayout({ children }) {
           poppinsFont.className
         )}
       >
-        333
         {children}
       </body>
     </html>
