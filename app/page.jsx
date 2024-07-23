@@ -3,7 +3,7 @@ import showcaseImg from "@/public/assets/showcase.png"
 import Feature from "./Feature";
 import { HiOutlineQrcode } from "react-icons/hi";
 import { TfiTablet } from "react-icons/tfi";
-import { FaUserClock } from "react-icons/fa";
+import { FaComments, FaUserClock } from "react-icons/fa";
 
 const page = () => {
   return(
@@ -44,7 +44,7 @@ const page = () => {
             <Feature 
               title="Digital Ordering" 
               description="Provide a seamless digital menu and ordering experience for your customers." 
-              logo={<TfiTablet className="text-8xl max-md:text-5xl"/>} />
+              logo={<TfiTablet className="text-7xl max-md:text-6xl"/>} />
             <Feature 
               title="Reservations" 
               description="Streamline your restaurant's reservation system with booking and management tools." 
@@ -52,7 +52,7 @@ const page = () => {
             <Feature 
               title="Customer Feedback" 
               description="Collect and analyze customer reviews and ratings to improve your service." 
-              logo={<HiOutlineQrcode />} />
+              logo={<FaComments />} />
           </div>
         </div>
       </dir>
