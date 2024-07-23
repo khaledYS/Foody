@@ -12,7 +12,7 @@ const Line = ({ text }) => {
       after:h-[2px]
     "
     >
-      <span className="bg-white px-4">{text}</span>
+      <span className="bg-background px-4">{text}</span>
     </div>
   );
 };

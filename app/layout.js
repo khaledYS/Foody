@@ -1,6 +1,7 @@
 import "./globals.css";
 import { Poppins } from "next/font/google";
 import { cn } from "@/lib/utils";
+import { ThemeProvider } from "next-themes";
 const poppinsFont = Poppins({
   subsets: ["latin"],
   weight: "400",
@@ -19,7 +20,14 @@ export default function RootLayout({ children }) {
           poppinsFont.className
         )}
       >
-        {children}
+        <ThemeProvider
+          attribute="class"
+          defaultTheme="light"
+          enableSystem
+          disableTransitionOnChange
+        >
+          {children}
+        </ThemeProvider>
       </body>
     </html>
   );
