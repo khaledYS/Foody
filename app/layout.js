@@ -2,6 +2,7 @@ import "./globals.css";
 import { Poppins, Inter } from "next/font/google";
 import { cn } from "@/lib/utils"
 import Navbar from "./_components/Navbar";
+import ClientLayout from "./_components/ClientLayout.js";
 
 const poppinsFont = Poppins({
     subsets: ["latin"],
@@ -20,7 +21,7 @@ export default function RootLayout({ children }) {
           "min-h-screen bg-background overflow-x-hidden antialiased",
           poppinsFont.className
         )}>
-        <Navbar />
+        <ClientLayout />
         {children}
       </body>
     </html>
