@@ -6,6 +6,7 @@ export default function Navbar (){
     return (
         <navbar className="sticky top-0 left-0 w-full h-full py-[24px] px-[64px] flex justify-between items-center bg-white shadow-md">
 
+            {/* TODO: Make the navbar responsive */}
             <div className={cn("logo text-4xl font")}>Foody</div>
 
             <div className="navbar-links flex gap-4 text-lg">
