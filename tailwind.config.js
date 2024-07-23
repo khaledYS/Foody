@@ -1,13 +1,13 @@
 /** @type {import('tailwindcss').Config} */
-const { fontFamily } = require("tailwindcss/defaultTheme")
+const { fontFamily } = require("tailwindcss/defaultTheme");
 
 module.exports = {
   darkMode: ["class"],
   content: [
-    './pages/**/*.{js,jsx}',
-    './components/**/*.{js,jsx}',
-    './app/**/*.{js,jsx}',
-    './src/**/*.{js,jsx}',
+    "./pages/**/*.{js,jsx}",
+    "./components/**/*.{js,jsx}",
+    "./app/**/*.{js,jsx}",
+    "./src/**/*.{js,jsx}",
   ],
   prefix: "",
   theme: {
@@ -20,12 +20,12 @@ module.exports = {
     },
     extend: {
       fontSize: {
-        "h1": "64px",
-        "h2": "52px",
-        "h3": "36px",
-        "h4": "24px",
-        "body": "24px",
-        "button": "18px"
+        h1: "64px",
+        h2: "52px",
+        h3: "36px",
+        h4: "24px",
+        body: "24px",
+        button: "18px",
       },
       fontFamily: {
         sans: ["var(--font-sans)", ...fontFamily.sans],
@@ -37,13 +37,13 @@ module.exports = {
         background: "hsl(var(--background))",
         foreground: "hsl(var(--foreground))",
         prime: "#13B9A8",
-        secnd:"#083344",
+        secnd: "#083344",
         primary: {
-          DEFAULT: "hsl(var(--primary))",
+          DEFAULT: "var(--primary)",
           foreground: "hsl(var(--primary-foreground))",
         },
         secondary: {
-          DEFAULT: "hsl(var(--secondary))",
+          DEFAULT: "var(--secondary)",
           foreground: "hsl(var(--secondary-foreground))",
         },
         destructive: {
@@ -89,4 +89,4 @@ module.exports = {
     },
   },
   plugins: [require("tailwindcss-animate")],
-}
+};
