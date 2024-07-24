@@ -16,9 +16,9 @@ export const metadata = {
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="en">
+    <html lang="en" className="scroll-smooth">
       <body className={cn(
-          "min-h-screen bg-background overflow-x-hidden antialiased",
+          "min-h-screen bg-background overflow-x-hidden antialiased scroll-smooth",
           poppinsFont.className
         )}>
         <ClientLayout />
