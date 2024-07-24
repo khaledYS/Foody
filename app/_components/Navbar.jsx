@@ -21,8 +21,8 @@ function AuthOrLogin (props){
     // show login and sign up buttons
     return (
         <div {...props} className={"auths flex justify-between items-center gap-4 font-semibold " + props.className} >
-            <button className="px-6 py-2 border border-prime rounded-md" >Login</button>
-            <button className="px-6 py-2 border bg-prime rounded-md">Sign up</button>
+            <Link href="/auth/login" className="px-6 py-2 border border-prime rounded-md" >Login</Link>
+            <Link href="/auth/sign-up" className="px-6 py-2 border bg-prime rounded-md">Sign up</Link>
         </div>
     )
 }
