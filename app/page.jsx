@@ -5,6 +5,7 @@ import { HiOutlineQrcode } from "react-icons/hi";
 import { TfiTablet } from "react-icons/tfi";
 import { FaComments, FaUserClock } from "react-icons/fa";
 import { PiStarFill } from "react-icons/pi";
+import Contact from "./Contact";
 
 const page = () => {
   return(
@@ -34,9 +35,9 @@ const page = () => {
         </div>
       </div>
 
-      <dir className="h-screen w-screen grid place-items-center text-secnd p-0 max-md:my-12" id="features">
+      <dir className="min-h-screen w-screen grid place-items-center text-secnd p-0 max-md:my-12" id="features">
         <div className="w-full flex flex-col text-center justify-center items-center gap-12 max-md:gap-6">
-          <div className="text-h2 max-md:text-h3">What does it provide? </div>
+          <div className="text-h2">What does it provide? </div>
           <div className="flex gap-8 max-md:gap-4 flex-wrap justify-center px-4 pb-10">
             <Feature 
               title="Menu Maker" 
@@ -57,6 +58,10 @@ const page = () => {
           </div>
         </div>
       </dir>
+
+      <Contact />
+
+      <div className="footer w-full my-4 text-sm text-center font-medium">© 2024 Foody All rights reserved</div>
 
     </div>
   );
