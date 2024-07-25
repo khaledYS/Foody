@@ -1,4 +1,3 @@
-import "./globals.css";
 import { Poppins } from "next/font/google";
 import { cn } from "@/lib/utils";
 import { ThemeProvider } from "next-themes";
@@ -16,7 +15,7 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <body
         className={cn(
-          "min-h-screen bg-background capitalize antialiased",
+          "min-h-screen bg-background overflow-x-hidden antialiased",
           poppinsFont.className
         )}
       >
