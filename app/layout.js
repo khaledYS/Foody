@@ -1,13 +1,5 @@
 import { Poppins } from "next/font/google";
 import { cn } from "@/lib/utils";
-<<<<<<< HEAD
-<<<<<<< HEAD
-
-import { ThemeProvider } from "next-themes";
-=======
->>>>>>> parent of e6660d7 (Calling some elements from the shadcn library instead of manually writing them)
-=======
->>>>>>> parent of e6660d7 (Calling some elements from the shadcn library instead of manually writing them)
 const poppinsFont = Poppins({
   subsets: ["latin"],
   weight: "400",
