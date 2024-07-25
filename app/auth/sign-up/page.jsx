@@ -1,8 +1,6 @@
 import AuthTitle from "@/app/_components/authComponents/AuthTitle";
 import GoogleButton from "@/app/_components/authComponents/GoogleButton";
 import Line from "@/app/_components/authComponents/Line";
-import { Button } from "@/components/ui/button";
-import { Label } from "@/components/ui/label";
 import Link from "next/link";
 import React from "react";
 const page = () => {
@@ -13,53 +11,43 @@ const page = () => {
       <Line text={"Or Sign up with Email"} />
       <form className="flex flex-col gap-4">
         <div className="group grid">
-          <Label
-            className="text-base cursor-pointer group-focus-within:text-primary"
-            htmlFor="username"
-          >
+          <label className="group-focus-within:text-primary" htmlFor="username">
             Full Name
-          </Label>
+          </label>
           <input
             className="border-2 rounded-sm h-11 outline-none focus:border-primary px-2"
             type="text"
-            id="username"
+            name="username"
             placeholder="Eg. Yasmin Siraj"
           />
         </div>
         <div className="group grid">
-          <Label
-            className="text-base cursor-pointer group-focus-within:text-primary"
-            htmlFor="email"
-          >
+          <label className="group-focus-within:text-primary" htmlFor="email">
             Email Address
-          </Label>
+          </label>
           <input
             className="border-2 rounded-sm h-11 outline-none focus:border-primary px-2"
             type="email"
-            id="email"
+            name="email"
             placeholder="your@email.com"
           />
         </div>
         <div className="group grid">
-          <Label
-            className="text-base cursor-pointer group-focus-within:text-primary"
-            htmlFor="password"
-          >
+          <label className="group-focus-within:text-primary" htmlFor="password">
             password
-          </Label>
+          </label>
           <input
             className="placeholder:absolute placeholder:top-3 border-2 rounded-sm h-11 outline-none focus:border-primary px-2"
             type="password"
-            id="password"
+            name="password"
             placeholder="**************"
           />
         </div>
-        <Button
+        <input
+          className="bg-primary text-white rounded-sm h-11 outline-none"
           type="submit"
-          className="text-base text-white rounded-sm h-11 outline-none"
-        >
-          login
-        </Button>
+          value="login"
+        />
       </form>
       <div className="text-xs text-center">
         By signing up, you agree with Foody’s{" "}
