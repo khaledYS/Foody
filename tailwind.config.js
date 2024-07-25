@@ -20,11 +20,11 @@ module.exports = {
     },
     extend: {
       fontSize: {
-        h1: "64px",
-        h2: "52px",
-        h3: "36px",
-        h4: "24px",
-        body: "24px",
+        h1: "52px",
+        h2: "36px",
+        h3: "24px",
+        h4: "18px",
+        body: "18px",
         button: "18px",
       },
       fontFamily: {
