@@ -1,5 +1,6 @@
 import { Poppins } from "next/font/google";
 import { cn } from "@/lib/utils";
+
 import { ThemeProvider } from "next-themes";
 const poppinsFont = Poppins({
   subsets: ["latin"],
@@ -15,7 +16,7 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <body
         className={cn(
-          "min-h-screen bg-background overflow-x-hidden antialiased",
+          "min-h-screen bg-background antialiased",
           poppinsFont.className
         )}
       >
